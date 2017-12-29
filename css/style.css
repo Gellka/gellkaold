@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+body {
+    font-family: "PT Sans Narrow";
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 50px;
+
+
+}
+body #header {
+    box-shadow: 0 0 5px 5px black;
+}
+
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+#header {
+    background: url(../images/Human_back_Hands_Braid.png) no-repeat center top;
+    margin: -5px auto;
+    position: relative;
+    height: 400px;
+    margin-top: -70px
+
+}
+#header h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family:'Spectral SC' ;
+    color: whitesmoke;
+}
+#header h4 {
+    text-transform: uppercase;
+    text-align: right;
+    padding: 20px;
+    font-size: 55px;
+    font-weight: 800;
+    font-family:'Spectral SC' ;
+    color: whitesmoke;
+    word-spacing: 550px;
+
+}
+.mainikons{
+    padding: 35px;
+    padding-left: 190px;
+    background: #fafafa;
+
+}
+
+.mainikons  h2 {
+    font-size: 21px;
+    font-family: 'PT Sans Narrow';
+}
+.mainna{
+
+    margin-top: 20px;
+    max-width: 1140px;
+    position: relative;
+    margin: 25px auto;
+    border-bottom: 1px solid #333;
+    background: #fafafa;
+
+}
+li a {
+    color: darkred;
+
+}
+.mainna ul li {
+    display: inline;
+    padding: 120px;
+    font-size: 28px;
+}
+a {
+    color: whitesmoke;
+}
+a:hover {
+    color: indianred;
+
+}
+
+
+.maintext {
+    background: #843534;
+    border-bottom: 1px solid #333;
+}
+.maintext h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Spectral SC' ;
+}
+.maintext ul li {
+    display: inline;
+    padding: 120px;
+    font-size: 28px;
+}
+p {
+    font-size: 20px;
+    color: #0f0f0f;
+    font-family: "PT Sans Narrow";
+    text-indent: 2.5em;
+}
+.imgdemo{
+    display: none;
+}
+
+.trener img {
+    width: 500px;
+    height: 670px;
+    padding: 25px;
+}
+
+
+.map{
+    background: #843534;
+    margin: 0 0 1em 0;
+    height: 550px
+
+}
+#realmap {
+    padding: 35px;
+    border-right: solid 3px rgba(255, 255, 255, 0.15);
+    margin-top: -20px
+
+
+}
+.map h3 {
+
+    padding: 50px;
+}
+
+.contactu ul li {
+    padding: 0;
+    list-style: none;
+}
+.ikonka {
+    width: 60px;
+}
+
+.footers{
+    background: black;
+    height: 60px;
+    padding: 12px;
+    color:whitesmoke;
+    margin-top: -15px
+}
+
+.thumb img {
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    border-radius:5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding:5px;
+}
+.thumb img:hover {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1);
+}
+.thumb {
+    padding:5px;
+}
+
+@media screen and (max-width: 500px) {
+    #header {display: none;}
+}
+.gallary{
+    background: #843534;
+}
+.gallary img {
+    margin: 5px;
+    border: 3px solid indianred;
+
+
+}
+
+a.gal:hover img {
+    border: 3px solid black;
+
+
+}
