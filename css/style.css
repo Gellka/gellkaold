@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
-@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 
 body {
-    font-family: "PT Sans Narrow";
+    font-family: "Roboto Slab";
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -20,7 +20,7 @@ p {
     margin-bottom: 25px;
 }
 
-#header {
+.header {
     background: url(../images/Human_back_Hands_Braid.png) no-repeat center top;
     margin: -5px auto;
     position: relative;
@@ -28,22 +28,20 @@ p {
     margin-top: -70px
 
 }
-#header h3 {
+.header h3 {
     text-transform: uppercase;
     text-align: left;
     padding: 50px;
     font-size: 40px;
     font-weight: 800;
-    font-family:'Spectral SC' ;
     color: whitesmoke;
 }
-#header h4 {
+.header h4 {
     text-transform: uppercase;
     text-align: right;
     padding: 20px;
     font-size: 55px;
     font-weight: 800;
-    font-family:'Spectral SC' ;
     color: whitesmoke;
     word-spacing: 550px;
 
@@ -51,13 +49,14 @@ p {
 .mainikons{
     padding: 35px;
     padding-left: 190px;
-    background: #fafafa;
+
 
 }
-
+.text h2 {
+    margin: 5px 0 10px -10px
+}
 .mainikons  h2 {
     font-size: 21px;
-    font-family: 'PT Sans Narrow';
 }
 .mainna{
 
@@ -66,7 +65,8 @@ p {
     position: relative;
     margin: 25px auto;
     border-bottom: 1px solid #333;
-    background: #fafafa;
+
+
 
 }
 li a {
@@ -94,27 +94,24 @@ a:hover {
 .maintext h3 {
     font-size: 25px;
     font-weight: bold;
-    font-family:'Spectral SC' ;
-}
-.maintext ul li {
-    display: inline;
-    padding: 120px;
-    font-size: 28px;
+    margin: 58px;
 }
 p {
     font-size: 20px;
     color: #0f0f0f;
-    font-family: "PT Sans Narrow";
     text-indent: 2.5em;
 }
 .imgdemo{
     display: none;
 }
-
+.trener{
+    padding: 30px;
+}
 .trener img {
     width: 500px;
     height: 670px;
     padding: 25px;
+
 }
 
 
@@ -140,8 +137,9 @@ p {
     padding: 0;
     list-style: none;
 }
-.ikonka {
+.ikon {
     width: 60px;
+    margin: 0 70px ;
 }
 
 .footers{
@@ -161,7 +159,7 @@ p {
     padding:5px;
 }
 .thumb img:hover {
-    filter: gray; /* IE6-9 */
+    filter: initial; /* IE6-9 */
     -webkit-filter: grayscale(1);
 }
 .thumb {
@@ -176,13 +174,23 @@ p {
 }
 .gallary img {
     margin: 5px;
-    border: 3px solid indianred;
+    border: 3px solid firebrick;
 
 
 }
 
 a.gal:hover img {
-    border: 3px solid black;
+    border: 3px solid transparent;
 
 
+}
+
+.fotogallery {
+    margin: 20px;
+}
+
+.thecomanyin h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 15px;
 }
