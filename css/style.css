@@ -121,7 +121,7 @@ p {
     height: 550px
 
 }
-#realmap {
+.realmap {
     padding: 35px;
     border-right: solid 3px rgba(255, 255, 255, 0.15);
     margin-top: -20px
@@ -166,9 +166,7 @@ p {
     padding:5px;
 }
 
-@media screen and (max-width: 500px) {
-    #header {display: none;}
-}
+
 .gallary{
     background: #843534;
 }
@@ -178,7 +176,7 @@ p {
 
 
 }
-
+s
 a.gal:hover img {
     border: 3px solid transparent;
 
@@ -193,4 +191,13 @@ a.gal:hover img {
     font-size: 45px;
     text-align: center;
     padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    #header {display: none;}
+}
+
+@media screen and (max-width: 500px) {
+   .realmap {
+       display: none;}
 }
