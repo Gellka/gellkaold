@@ -137,6 +137,9 @@ p {
     padding: 0;
     list-style: none;
 }
+.contactu h2 {
+    font-size: 25px;
+}
 .ikon {
     width: 60px;
     margin: 0 70px ;
@@ -194,10 +197,35 @@ a.gal:hover img {
 }
 
 @media screen and (max-width: 500px) {
-    #header {display: none;}
+    .header {display: none;}
 }
 
 @media screen and (max-width: 500px) {
    .realmap {
        display: none;}
+}
+
+.contactu h2 {font-size:25px;}
+@media (max-width:600px){
+    .contactu h2 {font-size:20px;
+   }
+
+}
+
+.contactu p {font-size:20px;}
+@media (max-width:600px){
+    .contactu p {font-size:15px;}
+
+}
+.map h1 {font-size:45px;}
+@media (max-width:600px){
+    .map h1 {font-size:25px;
+    padding: 20px;}
+
+}
+@media screen and (max-width: 500px) {
+    .map {margin: 0;
+    margin-top: -60px;
+
+    }
 }
