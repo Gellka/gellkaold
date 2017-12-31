@@ -228,3 +228,43 @@ a.gal:hover img {
 
     }
 }
+
+.header h3 {font-size:40px;}
+@media (max-width:900px){
+    .header h3 {font-size:20px;
+    margin:  -30px;}
+
+}
+
+.header h4 {font-size:55px;}
+@media (max-width:900px){
+    .header h4 {font-size:25px;
+        margin:  -30px;}
+
+}
+
+@media screen and (max-width: 500px) {
+    .mainikons {margin: 0;
+        margin-top: -70px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainna {margin: 0;
+        margin-left: -155px;
+
+    }
+}
+
+.mainna ul li {font-size: 28px;}
+@media (max-width:500px){
+    .mainna ul li {
+        font-size:10px;
+        margin: -19px;
+
+
+
+    }
+
+}
