@@ -21,11 +21,11 @@ p {
 }
 
 .header {
-    background: url(../images/Human_back_Hands_Braid.png) no-repeat center top;
+    background: url(../images/RWSTtdnJFu4.png) no-repeat center top;
     margin: -5px auto;
     position: relative;
-    height: 400px;
-    margin-top: -70px
+    height: 500px;
+    margin-top: -50px
 
 }
 .header h3 {
@@ -49,11 +49,12 @@ p {
 .mainikons{
     padding: 35px;
     padding-left: 190px;
+    clear: both;
 
 
 }
 .text h2 {
-    margin: 5px 0 10px -10px
+    margin: 5px 0 10px -15px
 }
 .mainikons  h2 {
     font-size: 21px;
@@ -65,9 +66,6 @@ p {
     position: relative;
     margin: 25px auto;
     border-bottom: 1px solid #333;
-
-
-
 }
 li a {
     color: darkred;
@@ -90,6 +88,7 @@ a:hover {
 .maintext {
     background: #843534;
     border-bottom: 1px solid #333;
+
 }
 .maintext h3 {
     font-size: 25px;
