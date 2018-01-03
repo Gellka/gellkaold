@@ -10,7 +10,7 @@ body {
 
 
 }
-body #header {
+body >header {
     box-shadow: 0 0 5px 5px black;
 }
 
@@ -206,8 +206,10 @@ a.gal:hover img {
 }
 
 @media screen and (max-width: 550px) {
-    .header {display: none;}
+    .header {max-width: 490px;
+    margin-bottom: 80px;}
 }
+
 
 @media screen and (max-width: 500px) {
    .realmap {
@@ -234,7 +236,7 @@ a.gal:hover img {
 }
 @media screen and (max-width: 500px) {
     .map {margin: 0;
-    margin-top: -60px;
+    margin-top: -100px;
 
     }
 }
@@ -281,3 +283,9 @@ a.gal:hover img {
 
     }
 }
+@media screen and (max-width: 550px) {
+    .gallary {margin-top: -80px;
+
+    }
+}
+
