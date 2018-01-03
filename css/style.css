@@ -204,6 +204,10 @@ a.gal:hover img {
     padding: 20px;
     font-size: 45px;
 }
+.a {
+    font-size: 17px;
+}
+
 
 @media screen and (max-width: 550px) {
     .header {max-width: 490px;
