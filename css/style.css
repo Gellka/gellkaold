@@ -10,7 +10,7 @@ body {
 
 
 }
-body #header {
+body >header {
     box-shadow: 0 0 5px 5px black;
 }
 
@@ -24,8 +24,8 @@ p {
     background: url(../images/Human_back_Hands_Braid.png) no-repeat center top;
     margin: -5px auto;
     position: relative;
-    height: 400px;
-    margin-top: -70px
+    height: 500px;
+    margin-top: -50px
 
 }
 .header h3 {
@@ -49,11 +49,12 @@ p {
 .mainikons{
     padding: 35px;
     padding-left: 190px;
+    clear: both;
 
 
 }
 .text h2 {
-    margin: 5px 0 10px -10px
+    margin: 5px 0 10px -15px
 }
 .mainikons  h2 {
     font-size: 21px;
@@ -65,9 +66,6 @@ p {
     position: relative;
     margin: 25px auto;
     border-bottom: 1px solid #333;
-
-
-
 }
 li a {
     color: darkred;
@@ -90,6 +88,7 @@ a:hover {
 .maintext {
     background: #843534;
     border-bottom: 1px solid #333;
+
 }
 .maintext h3 {
     font-size: 25px;
@@ -121,7 +120,7 @@ p {
     height: 550px
 
 }
-#realmap {
+.realmap {
     padding: 35px;
     border-right: solid 3px rgba(255, 255, 255, 0.15);
     margin-top: -20px
@@ -136,6 +135,9 @@ p {
 .contactu ul li {
     padding: 0;
     list-style: none;
+}
+.contactu h2 {
+    font-size: 25px;
 }
 .ikon {
     width: 60px;
@@ -166,9 +168,7 @@ p {
     padding:5px;
 }
 
-@media screen and (max-width: 500px) {
-    #header {display: none;}
-}
+
 .gallary{
     background: #843534;
 }
@@ -178,7 +178,7 @@ p {
 
 
 }
-
+s
 a.gal:hover img {
     border: 3px solid transparent;
 
@@ -194,3 +194,102 @@ a.gal:hover img {
     text-align: center;
     padding: 15px;
 }
+.price{
+    background: #843534;
+    width: 100%;
+    margin: -30px 0 0;
+}
+.price h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+.a {
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 550px) {
+    .header {max-width: 490px;
+    margin-bottom: 80px;}
+}
+
+
+@media screen and (max-width: 500px) {
+   .realmap {
+       display: none;}
+}
+
+.contactu h2 {font-size:25px;}
+@media (max-width:600px){
+    .contactu h2 {font-size:20px;
+   }
+
+}
+
+.contactu p {font-size:20px;}
+@media (max-width:600px){
+    .contactu p {font-size:15px;}
+
+}
+.map h1 {font-size:45px;}
+@media (max-width:600px){
+    .map h1 {font-size:25px;
+    padding: 20px;}
+
+}
+@media screen and (max-width: 500px) {
+    .map {margin: 0;
+    margin-top: -100px;
+
+    }
+}
+
+.header h3 {font-size:40px;}
+@media (max-width:900px){
+    .header h3 {font-size:20px;
+    margin:  -30px;}
+
+}
+
+.header h4 {font-size:55px;}
+@media (max-width:900px){
+    .header h4 {font-size:25px;
+        margin:  -30px;}
+
+}
+
+@media screen and (max-width: 500px) {
+    .mainikons {margin: 0;
+        margin-top: -70px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainna {margin: 0;
+        margin-left: -155px;
+
+    }
+}
+
+.mainna ul li {font-size: 28px;}
+@media (max-width:500px){
+    .mainna ul li {
+        font-size:10px;
+        margin: -19px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .price {margin: -80px 0 0;
+
+    }
+}
+@media screen and (max-width: 550px) {
+    .gallary {margin-top: -80px;
+
+    }
+}
+
